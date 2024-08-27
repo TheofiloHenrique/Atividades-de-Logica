@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de dois números</title>
+</head>
+<body>
+    <script>
+        let num1 = parseInt(prompt(("Digite seu primeiro número")));
+        let num2 = parseInt(prompt(("Digite seu segundo número")));
+        let operacao = prompt("Digite a operação matemática");
+        
+        function Calculadora(){
+            
+            if(operacao === "soma"){
+                num1 + num2
+                return alert(`${num1} + ${num2} = ${num1+num2}`);
+                
+            }
+
+            if(operacao === "subtração"){
+                num1 + num2
+                return alert(`${num1} - ${num2} = ${num1-num2}`);
+                
+            }
+            
+            if(operacao === "multiplicação"){
+                num1 * num2
+                return alert(`${num1} x ${num2} = ${num1*num2}`);
+                
+            }
+
+            if(operacao === "divisão"){
+                num1 * num2
+                return alert(`${num1} / ${num2} = ${num1/num2}`);
+                
+            }
+
+
+        }
+
+        Calculadora();
+    </script>
+</body>
+</html>

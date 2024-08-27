@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Média</title>
+</head>
+<body>
+ <script>
+    
+    let n1 = parseInt(prompt("Digite sua primeira nota"));
+    let n2 = parseInt(prompt("Digite sua segunda nota"));
+    let n3 = parseInt(prompt("Digite sua terceira nota"));
+    let n4 = parseInt(prompt("Digite sua quarta nota"));
+
+    let calculo = (n1+n2+n3+n4)/4;
+   
+    function media (){
+    
+    if (calculo >= 7) return alert(`Sua média foi : ${calculo}, você foi aprovado!`);
+    
+    else if (calculo >=5 && calculo <=7) return alert(`Sua média foi : ${calculo}, você está em recuperação!`);
+    
+    else return alert(`Sua média foi : ${calculo}, você foi reprovado!`);
+    
+    }
+
+    media();
+        
+ </script>   
+
+</body>
+</html>
